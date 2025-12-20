@@ -1,4 +1,22 @@
-## Hi there 👋
+## 👋 Hi, I'm Milena
+
+Aspiring Cybersecurity Analyst building hands-on labs focused on
+defensive security and SOC fundamentals.
+
+🔐 Current Focus:
+- Network segmentation & firewall rules
+- Attack simulation and detection
+- Security documentation (SOC-style)
+
+📂 Featured Project:
+- Cybersecurity Home Network Lab
+
+🛠️ Skills in Progress:
+- Networking fundamentals
+- Linux & Windows security
+- SIEM & log analysis (next)
+
+📌 This GitHub documents my learning journey and practical cybersecurity projects.
 
 <!--
 **milenaaburto/milenaaburto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
