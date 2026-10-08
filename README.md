@@ -1,34 +1,28 @@
-## 👋 Hi, I'm Milena
+# Hi, I'm Milena
 
-Aspiring Cybersecurity Analyst building hands-on labs focused on
-defensive security and SOC fundamentals.
+I'm building practical experience in defensive security, with a focus on junior SOC analyst roles. My work here covers Linux networking, firewall validation and manual log analysis.
 
-🔐 Current Focus:
-- Network segmentation & firewall rules
-- Attack simulation and detection
-- Security documentation (SOC-style)
+## Featured project
 
-📂 Featured Project:
-- Cybersecurity Home Network Lab
+[Cybersecurity Home Network Lab](https://github.com/milenaaburto/cybersecurity-home-network-lab)
 
-🛠️ Skills in Progress:
-- Networking fundamentals
-- Linux & Windows security
-- SIEM & log analysis (next)
+A VirtualBox lab with separate attacker, DMZ and internal networks connected through an Ubuntu firewall/router.
 
-📌 This GitHub documents my learning journey and practical cybersecurity projects.
+- Configured IPv4 segmentation and a stateful iptables forwarding policy.
+- Validated permitted HTTP access to the DMZ and blocked the tested ICMP and TCP connections to the internal network.
+- Examined firewall and Apache logs alongside connection tests and rule counters.
+- Published original log extracts, the exported firewall ruleset, a topology diagram and test reproduction steps.
+- Documented unresolved clock synchronization and intermittent VM startup issues.
 
-<!--
-**milenaaburto/milenaaburto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Explore the evidence:** [Validation results](https://github.com/milenaaburto/cybersecurity-home-network-lab/blob/main/docs/validation.md) · [SOC analysis](https://github.com/milenaaburto/cybersecurity-home-network-lab/blob/main/docs/soc-analysis.md) · [Log extracts](https://github.com/milenaaburto/cybersecurity-home-network-lab/blob/main/logs/README.md)
 
-Here are some ideas to get you started:
+## Skills demonstrated in this lab
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Networking:** IPv4 addressing, routing, segmentation and connectivity troubleshooting.
+- **Linux:** service checks, network configuration and system log inspection.
+- **Firewall validation:** iptables, connection tracking, rule counters and persistence checks.
+- **Analysis and documentation:** manual log review, controlled tests, evidence interpretation and explicit limitations.
+
+## Next learning goals
+
+Centralized log collection and SIEM investigation, followed by Windows security event analysis. The current lab demonstrates segmentation validation and manual analysis; automated detection is a future phase.
