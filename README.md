@@ -1,6 +1,6 @@
 # Hi, I'm Milena
 
-I'm building practical experience in defensive security, with a focus on junior SOC analyst roles. My work here covers Linux networking, firewall validation and manual log analysis.
+I'm a Cenfotec Cybersecurity Technical Program graduate (2026), focused on junior SOC analyst roles. My practical work covers Linux networking, firewall validation and manual log analysis.
 
 ## Featured project
 
@@ -12,7 +12,9 @@ A VirtualBox lab with separate attacker, DMZ and internal networks connected thr
 - Validated permitted HTTP access to the DMZ and blocked the tested ICMP and TCP connections to the internal network.
 - Examined firewall and Apache logs alongside connection tests and rule counters.
 - Published original log extracts, the exported firewall ruleset, a topology diagram and test reproduction steps.
-- Documented unresolved clock synchronization and intermittent VM startup issues.
+- Verified Ubuntu time synchronization after a normal startup, while preserving historical log timestamp limitations and tracking intermittent startup reliability.
+
+**Latest results:** [October 9 revalidation](https://github.com/milenaaburto/cybersecurity-home-network-lab/blob/main/docs/final-revalidation-2026-10-09.md)
 
 **Explore the evidence:** [Validation results](https://github.com/milenaaburto/cybersecurity-home-network-lab/blob/main/docs/validation.md) · [SOC analysis](https://github.com/milenaaburto/cybersecurity-home-network-lab/blob/main/docs/soc-analysis.md) · [Log extracts](https://github.com/milenaaburto/cybersecurity-home-network-lab/blob/main/logs/README.md)
 
